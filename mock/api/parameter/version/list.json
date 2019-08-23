@@ -1,0 +1,77 @@
+{
+    "resultCode":"0000",
+    "resultMessage":"",
+    "data":{
+        "total":1,
+        "versionList":[{
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          },
+          {
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          },
+          {
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          },
+          {
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          },
+          {
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          },
+          {
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          },
+          {
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          },
+          {
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          },
+          {
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          },
+          {
+            "versionNo": "2016-05-02",
+            "name": "APP1",
+            "sys": "ios",
+            "type":"1",
+            "state":"2"
+          }]
+    }
+}
