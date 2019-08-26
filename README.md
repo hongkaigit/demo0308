@@ -1,29 +1,27 @@
-# myvue
+# 基于VUE的一个简单的后台管理页面实现
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
+### 运行
 ```
 yarn run serve
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### 背景
 
-### Run your tests
-```
-yarn run test
-```
+- 无需每次create一个新项目重复配置
+- 解决基本的项目需求
+- 供新手学习，也供自己成长，我也是个菜鸡
 
-### Lints and fixes files
-```
-yarn run lint
-```
+### 说明
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 项目还存在很多不足，有时间在优化补充
+- 大佬直接关闭，对大佬没有阅读的需要
+- 共同学习
+
+### 建议
+
+- 如果你刚好学习vue，却无从下手从零搭建项目那这个项目刚好适合你
+- 如果还没掌握html,js基础或对es6语法不了解的同学请先学习
+- 如需添加某些常用功能可提建议
+
+#### 欢迎一起学习，谢谢！
