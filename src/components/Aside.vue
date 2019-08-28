@@ -1,6 +1,6 @@
 <template>
-<el-aside class="aside" :width=" isCollapse ? '65px':'200px' ">
-  <el-menu
+  <el-aside class="aside" :width="isCollapse ? '65px' : '200px'">
+    <el-menu
       :collapse="isCollapse"
       class="el-menu-vertical-demo"
       default-active="1"
@@ -9,7 +9,8 @@
       @select="handleSelect"
       background-color="#545c64"
       text-color="#fff"
-      active-text-color="#ffd04b">
+      active-text-color="#ffd04b"
+    >
       <el-menu-item index="/">
         <i class="el-icon-menu"></i>
         <span slot="title">首页</span>
@@ -39,65 +40,61 @@
           <span>导航二</span>
         </template>
         <el-menu-item-group>
-          <template slot="title">分组一</template>
-          <el-menu-item index="1-1">选项1</el-menu-item>
+          <template slot="title"
+            >分组一</template
+          >
+          <el-menu-item index="/amap">地图</el-menu-item>
           <el-menu-item index="1-2">选项2</el-menu-item>
         </el-menu-item-group>
         <el-menu-item-group title="分组2">
           <el-menu-item index="1-3">选项3</el-menu-item>
         </el-menu-item-group>
         <el-submenu index="1-4">
-          <template slot="title">选项4</template>
+          <template slot="title"
+            >选项4</template
+          >
           <el-menu-item index="1-4-1">选项1</el-menu-item>
         </el-submenu>
       </el-submenu>
-       <el-menu-item index="5" disabled="">
+      <el-menu-item index="5" disabled="">
         <i class="el-icon-location"></i>
         <span slot="title">开发中</span>
       </el-menu-item>
     </el-menu>
-</el-aside>
+  </el-aside>
 </template>
 
 <script>
-import { type } from 'os';
 export default {
-  name:"Aside",
-  data(){
-    return {
-      
+  name: "Aside",
+  data() {
+    return {};
+  },
+  props: {
+    isCollapse: {
+      type: Boolean,
+      default: true
     }
   },
-  props:{
-      isCollapse:{
-        type:Boolean,
-        default:true
-      }
-    },
-  methods:{
-    handleOpen(key, keyPath) {
-      // console.log(key, keyPath);
-    },
-    handleClose(key, keyPath) {
-      // console.log(key, keyPath);
-    },
-    handleSelect(index,indexpath){
-      // console.log(index,indexpath);
-       this.$router.push({
-        path:index
-      })
+  methods: {
+    handleOpen() {},
+    handleClose() {},
+    handleSelect(index) {
+      this.$router.push({
+        path: index
+      });
     }
   },
-  watch:{
-    isCollapse(newval){
-      this.$emit("update:isCollapse",newval);
+  watch: {
+    isCollapse(newval) {
+      this.$emit("update:isCollapse", newval);
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
-.el-menu-vertical-demo{
+.el-menu-vertical-demo {
   height: 100%;
 }
 </style>

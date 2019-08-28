@@ -42,6 +42,15 @@ export default [
           title: "A/B Test"
         },
         component: () => import("@views/abtest/RouterEntry.vue")
+      },
+      {
+        path: "/amap",
+        name: "amap",
+        meta: {
+          actRouter: "amap",
+          title: "地图"
+        },
+        component: () => import("@views/map/RouterEntry.vue")
       }
     ]
   },
