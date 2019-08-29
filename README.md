@@ -2,6 +2,32 @@
 
 
 ### 运行
+- 在中国大陆npm较慢,可以设置淘宝镜像，个人推荐用yarn，使用前请安装yarn(先安装node)
+
+```
+npm install -g yarn
+```
+
+- 克隆代码到本地ssh或https(安装git)
+
+```
+git clone https://github.com/hongkaigit/demo0308.git
+```
+
+- 安装依赖
+ - 先打开项目
+ 
+	```
+	cd demo0308
+	```
+ - 安装
+ 
+	```
+	yarn
+	```
+
+- 运行
+
 ```
 yarn run serve
 ```
