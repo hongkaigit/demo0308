@@ -21,9 +21,18 @@ export default [
         name: "hotfix",
         meta: {
           actRouter: "hotfix",
-          title: "热更新管理"
+          title: ""
         },
         component: () => import("@views/parameter/hotfix/RouterEntry.vue")
+      },
+      {
+        path: "/module",
+        name: "module",
+        meta: {
+          actRouter: "module",
+          title: "模块配置"
+        },
+        component: () => import("@views/module/RouterEntry.vue")
       },
       {
         path: "/version",
